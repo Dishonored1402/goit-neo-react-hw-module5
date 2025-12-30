@@ -1,0 +1,48 @@
+.page {
+  padding: 16px;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1;
+  color: #e8e8e8;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 280px;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid #888;
+  background: transparent;
+  color: #e8e8e8;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #9a9a9a;
+}
+
+.btn {
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid #888;
+  background: #ffffff;
+  color: #111111; /* ВОТ ЭТО главное — чтобы “Search” было видно */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

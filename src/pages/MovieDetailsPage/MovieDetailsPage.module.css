@@ -1,0 +1,73 @@
+.page {
+  padding: 16px;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: #7aa6ff;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.poster {
+  width: 200px;
+  border-radius: 8px;
+  display: block;
+}
+
+.noimg {
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  display: grid;
+  place-items: center;
+  color: #aaa;
+}
+
+.info {
+  min-width: 0;
+}
+
+.title {
+  margin: 0 0 10px;
+}
+
+.text {
+  margin: 8px 0;
+}
+
+.add {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.sub {
+  margin: 0 0 8px;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.link {
+  text-decoration: none;
+  color: #7aa6ff;
+}
+
+.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
