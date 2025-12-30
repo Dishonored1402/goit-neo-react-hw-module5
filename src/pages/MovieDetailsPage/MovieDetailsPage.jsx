@@ -12,7 +12,6 @@ export default function MovieDetailsPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
-  // Надійний base для картинок (навіть якщо env не заданий)
   const imgBase = import.meta.env.VITE_TMDB_IMG || "https://image.tmdb.org/t/p/w500";
 
   useEffect(() => {

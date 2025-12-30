@@ -38,7 +38,7 @@
   border-radius: 10px;
   border: 1px solid #888;
   background: #ffffff;
-  color: #111111; /* ВОТ ЭТО главное — чтобы “Search” было видно */
+  color: #111111;
   font-weight: 600;
   cursor: pointer;
 }
